@@ -53,3 +53,97 @@ Tag = <> </> - সাধারনত আমরা এই চিহ্ন গু�
     <h1> Watch the Video.......</h1>
     <iframe src="https://www.youtube.com/embed/o_0DXFj-fO4?si=TsKdgh-uSCnl6Rc2"width="460" height="315"></iframe>
     <iframe src="https://www.youtube.com/embed/2jgkVWMNIq8?si=CwZWx8ra-v_xgk1j"width="560" height="315"></iframe>
+
+    <marquee><h2> নোটিশ: নাগরিক www.ldtax.gov.bd এ ভিজিট করে অনলাইনে নিবন্ধন এবং ভূমি উন্নয়ন কর প্রদান করতে পারবেন।
+        তাছাড়া এনআইডি নম্বর, জন্ম তারিখ ও খতিয়ানের তথ্য প্রদান করে যে কোনও ইউনিয়ন ডিজিটাল সেন্টারের মাধ্যমে 
+        নিবন্ধন ও ভূমি উন্নয়ন কর প্রদান করার সুবিধা চালু করা হয়েছে </h2> </marquee>
+
+        [ <marquee> </marquee> ] এই ট্যাগটি মুলত যখন  আমরা আমাদের ওয়েবসাইটে শিরোনামের
+        মতো বা হেডলাইনের মতো কোন কিছু আপডেট দেখাতে চাইব তখন এটি ব্যবহার করতে হবে।
+
+        <a> </a>
+        [এক পেইজ থেকে আরেক পেই জে বা উইন্ডোতে যাওয়ার জন্য বা অন্য পেইজের সাথে
+        যে লিংক আপ করাব তখন এই ট্যাগটি ব্যবহার করা হয়।] For Example-
+        <a href="https://mutation.land.gov.bd/" target="_blank"> Click Here for E-Mutation Application.... </a>
+        <br> <a href="https://www.facebook.com/" target="_blank"> Click Here For facebook </a>
+        <br> <a href="https://www.youtube.com/" target="_blank"> Click Here For youtube </a>
+         <br> <a href="contact.html" target="_blank"> Contact Us </a>
+
+        Spacebar এর কাজ বা লাইনের মধ্যে বা প্রতিটা শব্দ লিখার পর আমরা যেভাবে কিবোর্ড থেকে 
+        স্পেসবারে ক্লিক করে স্পেস দেয়। ঠিক সেভাবে html এ ও একটি ট্যাগ আছে। যেমন-
+        &nbsp এটা যতবার দেব ততবারই এক বর্ণ করে স্পেস তৈরি করবে।
+
+
+
+         [ এখন আমরা নিম্নের ট্যাগ গুলো দ্বারা কিভাবে একটি ওয়েবসাইটে
+         ফর্ম তৈরি করা হয় বা যেভাবে আমরা পাবলিকের বা ইউজারকারীদের 
+         কাছ থেকে ডাটা সংগ্রহ করি সেই ফর্ম নিম্নে তৈরি করা যায় যেভাবে 
+         সেই ট্যাগগুলো নিম্নে দেওযা হলো ] যেমন-
+
+        <form action="" method="" enctype="multipart/form-data">
+            
+            
+        <label for=""> Name : </label>
+        <input type="text" value="" name="" id="" placeholder="Type Your Name" required>
+       
+
+        <br>
+        <label for=""> Email : </label>
+        <input type="email" value="" name="" id="" placeholder="Enter Your Mail" required>
+      
+
+        <label for=""> Phone Number : </label>
+        <input type="tel" value="" name="" id="" placeholder="Enter Your Phone" required>
+
+        
+        <label for=""> Age : </label>
+        <input type="number" value="" name="" id="" placeholder="Enter Your Number" required> <br>
+        <br>
+
+        <label for=""> Blood Group : </label>
+        <select name="" id="">
+            <option value=""> A+ </option>
+            <option value=""> A- </option>
+            <option value=""> AB+ </option>
+            <option value=""> AB- </option>
+            <option value=""> B+ </option>
+            <option value=""> B- </option>
+            <option value=""> O+ </option>
+            <option value=""> O- </option>
+        </select>
+
+        <label for=""> Gender : </label>
+        <input type="radio" name="Gender" value=""> Male
+        <input type="radio" name="Gender" value=""> Female
+        <input type="radio" name="Gender" value=""> Others
+
+        <label for=""> <b> Skills :</b> </label>
+        <input type="checkbox" name="" value=""> HTML
+        <input type="checkbox" name="" value=""> CSS
+        <input type="checkbox" name="" value=""> Laravel
+        <input type="checkbox" name="" value=""> PHP
+        <input type="checkbox" name="" value=""> Javascript
+        <input type="checkbox" name="" value=""> Photoshop
+
+       
+
+        <br>
+        <label for=""> Password : </label>
+        <input type="password" name="" value="" id="" placeholder=" Enter Your Password" required>
+
+        
+
+        <br>
+        <label for=""> Address : </label>
+        <textarea name="" id="" cols="20" rows="5" required></textarea>
+       
+
+        <br>
+        <label for=""> Image : </label>
+        <input type="file" name="" id="" required>
+
+    
+        <br>
+        <input type="submit" value="Submit" name="">
+
+        </form>
