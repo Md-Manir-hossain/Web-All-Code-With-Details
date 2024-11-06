@@ -125,3 +125,106 @@ There are many kinds of Identifier. Here there is-
         background-color: darkgreen;
         color: whitesmoke;
     }
+
+
+
+    ==============================================
+
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    .Hero-0 {
+        background-image: url(Image/Photo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        height: 390px;
+    }
+    
+    .Notice {
+        margin-top: 55px;
+        color: #603;
+        margin-right: 1440px;
+        background-color: aqua;
+    }
+    
+    .marquee {
+        margin-top: auto;
+        color: #603;
+        margin-left: 90px;
+    }
+    
+    .Hero {
+        background-color: whitesmoke;
+        border-color: #603;
+        margin-top: 10px;
+        overflow: hidden;
+        
+    }
+    
+    .Hero-1 {
+        float: left;
+        height: 200px;
+        width: 19%;
+        background-position: center;
+        border: 5px solid #603;
+        margin-left: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-image: url(Image/IN.PNG); */
+        text-align: center;
+        overflow: hidden;
+        color: #603;
+          
+    }
+    
+    .project-hero-1 {
+        background-color: #603;
+        color: whitesmoke;
+    }
+    
+    .project-hero-2 {
+        background-color: #603;
+        color: whitesmoke;
+    }
+    
+    .project-hero-3 {
+        background-color: #603;
+        color: whitesmoke;
+    }
+    
+    .project-hero-4 {
+        background-color: #603;
+        color: whitesmoke;
+    }
+    
+    .project-hero-5 {
+        background-color: #603;
+        color: whitesmoke;
+    }
+
+    .footer {
+        margin-top: 100px;
+        padding: 50px;
+        height: 200px;
+        background-color: gray;
+        color: beige;
+    
+    }
+    
+    .footer-1 {
+        float: left;
+        width: 33%;
+        text-align: left;
+        border: #603;
+    }
+    
+    .Link {
+        text-decoration: none;
+        color: greenyellow);
+        display: block;
+    }
