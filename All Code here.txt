@@ -36,7 +36,7 @@ Tag = <> </> - সাধারনত আমরা এই চিহ্ন গু�
 তা নিম্নে দেওয়া হলো-
 [<B>		- (Bold Text) 
 <strong>	- (important Text)
-<i>			- (Italic Text)
+<i>		- (Italic Text)
 <em>		- (Emphasized Text)
 <mark>		- (Marked Text)
 <small>		- (Small Text)
@@ -44,7 +44,8 @@ Tag = <> </> - সাধারনত আমরা এই চিহ্ন গু�
 <ins>		- (Inserted Text)
 <sub>		- (Subscript Text)
 <sup>		- (Superscript Text)
-<u>			- (Underline Text)]
+<u>		- (Underline Text)]
+
 <img src="images/wallpaper.jpg" height="50" Width="45" alt="loading"/>
 
 
