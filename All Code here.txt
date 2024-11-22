@@ -479,4 +479,169 @@ Padding  = Take space inside ot the box.
     <script src="Bootstrap/dist/js/bootstrap.bundle.min.js"> </script>
 </body>
 </html>
+
+====== Class-16 ======
+======== Bootstrap Grid system ======
+Bootstrap এর All Code er সংক্ষিপ্ত রুপ। যেগুলো CSS এ গেলে তার পূর্ণ রুপ এরকম হবে। যেমন-
+
+Col     = Column.
+bg      = Background
+small   = Small
+md      = Medium
+md      = Margin Bottom
+mt      = Margin Right
+
+
+
+===There are 8 colors of Bootstrap by default ====
+Here there is :-
+
+1. success  = Green type
+2. Info     = Blue type
+3. Dark     = Black or Ash
+4. Light    = White type
+5. Warning  = Golden or Yellow type
+6. Danger   = Red type
+7. Primary  = Blue type
+8. Secondary= Ash type
+
+
+Device Name : For Responsive Device
+
+small   = Small
+md      = Medium
+lg      = Large
+xl      = Extra Large
+
+
+
+আমরা Bootstrap এর সাথে Custom CSS ব্যবহার করেও কালার ব্যবহার করতে পারব।
+
+<div class="container">
+<div class="row mb-2">
+    <div class="bg-success col-sm-6 col-md-3 col-lg-1">HTML</div>
+    <div class="bg-info col-sm-6 col-md-3 col-lg-1">CSS</div>
+    <div class="bg-warning col-sm-6 col-md-3 col-lg-1">Bootstrap</div>
+    <div class="bg-success col-sm-6 col-md-3 col-lg-1">Javascript</div>
+    <div class="bg-warning col-sm-6 col-md-3 col-lg-1">PHP</div>
+    <div class="bg-danger col-sm-6 col-md-3 col-lg-1">PHP OOP</div>
+    <div class="bg-primary col-sm-6 col-md-3 col-lg-1">Shopify</div>
+    <div class="bg-secondary col-sm-6 col-md-3 col-lg-1">WordPress</div>
+    <div class="bg-warning col-sm-6 col-md-3 col-lg-1">Laravel</div>
+    <div class="bg-danger col-sm-6 col-md-3 col-lg-1">Digital Marketing</div>
+    <div class="bg-primary col-sm-6 col-md-3 col-lg-1">Sign Up</div>
+    <div class="bg-secondary col-sm-6 col-md-3 col-lg-1">Log in</div>
+</div>
+
+<div class="row mb-2">
+    <div class="bg-success col-sm-6 col-md-3 col-lg-1">HTML</div>
+    <div class="bg-info col-sm-6 col-md-3 col-lg-1">CSS</div>
+    <div class="bg-warning col-sm-6 col-md-3 col-lg-1">Bootstrap</div>
+    <div class="bg-success col-sm-6 col-md-3 col-lg-1">Javascript</div>
+    <div class="bg-warning col-sm-6 col-md-3 col-lg-1">PHP</div>
+    <div class="bg-primary col-sm-6 col-md-3 col-lg-1">Shopify</div>
+    <div class="bg-secondary col-sm-6 col-md-3 col-lg-1">WordPress</div>
+    <div class="bg-warning col-sm-6 col-md-3 col-lg-1">Laravel</div>
+    <div class="bg-danger col-sm-6 col-md-3 col-lg-1">Digital Marketing</div>
+    <div class="bg-primary col-sm-6 col-md-3 col-lg-1">Sign Up</div>
+    <div class="bg-secondary col-sm-6 col-md-3 col-lg-1">Log in</div>
+</div>
+
+<div class="row mb-2">
+    <div class="bg-success col-sm-6 col-md-3 col-lg-1">HTML</div>
+    <div class="bg-info col-sm-6 col-md-3 col-lg-1">CSS</div>
+    <div class="bg-warning col-sm-6 col-md-3 col-lg-1">Bootstrap</div>
+    <div class="bg-success col-sm-6 col-md-3 col-lg-1">Javascript</div>
+    <div class="bg-warning col-sm-6 col-md-3 col-lg-1">PHP</div>
+    <div class="bg-secondary col-sm-6 col-md-3 col-lg-1">WordPress</div>
+    <div class="bg-warning col-sm-6 col-md-3 col-lg-1">Laravel</div>
+    <div class="bg-danger col-sm-6 col-md-3 col-lg-1">Digital Marketing</div>
+    <div class="bg-primary col-sm-6 col-md-3 col-lg-1">Sign Up</div>
+    <div class="bg-secondary col-sm-6 col-md-3 col-lg-1">Log in</div>
+</div>
+
+<div class="row mb-2">
+    <div class="bg-success col-sm-6 col-md-4">HTML</div>
+    <div class="bg-info col-sm-6 col-md-4">CSS</div>
+    <div class="bg-warning col-sm-6 col-md-4">Bootstrap</div>
+    <div class="bg-success col-sm-6 col-md-4">Javascript</div>
+    <div class="bg-warning col-sm-6 col-md-4">PHP</div>
+    <div class="bg-secondary col-sm-6 col-md-4">WordPress</div>
+    <div class="bg-danger col-sm-6 col-md-4">Digital Marketing</div>
+    <div class="bg-primary col-sm-6 col-md-4">Sign Up</div>
+    <div class="bg-secondary col-sm-6 col-md-4">Log in</div>
+</div>
+
+<div class="row mb-2">
+    <div class="bg-success col-sm-6 col-md-4">HTML</div>
+    <div class="bg-warning col-sm-6 col-md-4">Bootstrap</div>
+    <div class="bg-success col-sm-6 col-md-4">Javascript</div>
+    <div class="bg-warning col-sm-6 col-md-4">PHP</div>
+    <div class="bg-secondary col-sm-6 col-md-4">WordPress</div>
+    <div class="bg-danger col-sm-6 col-md-4">Digital Marketing</div>
+    <div class="bg-primary col-sm-6 col-md-4">Sign Up</div>
+    <div class="bg-secondary col-sm-6 col-md-4">Log in</div>
+</div>
+
+<div class="row mb-2">
+    <div class="bg-success col-sm-6 col-md-4">HTML</div>
+    <div class="bg-warning col-sm-6 col-md-4">Bootstrap</div>
+    <div class="bg-success col-sm-6 col-md-4">Javascript</div>
+    <div class="bg-secondary col-sm-6 col-md-4">WordPress</div>
+    <div class="bg-danger col-sm-6 col-md-4">Digital Marketing</div>
+    <div class="bg-primary col-sm-6 col-md-4">Sign Up</div>
+    <div class="bg-secondary col-sm-6 col-md-4">Log in</div>
+</div>
+
+<div class="row mb-2">
+    <div class="bg-success col-sm-6 col-md-6">HTML</div>
+    <div class="bg-warning col-sm-6 col-md-6">Bootstrap</div>
+    <div class="bg-success col-sm-6 col-md-6">Javascript</div>
+    <div class="bg-secondary col-sm-6 col-md-6">WordPress</div>
+    <div class="bg-danger col-sm-6 col-md-6">Digital Marketing</div>
+    <div class="bg-secondary col-sm-6 col-md-6">Log in</div>
+</div>
+
+<div class="row mb-2">
+    <div class="bg-success col-sm-6 col-md-6">HTML</div>
+    <div class="bg-warning col-sm-6 col-md-6">Bootstrap</div>
+    <div class="bg-success col-sm-6 col-md-">Javascript</div>
+    <div class="bg-secondary col-sm-6 col-md-6">WordPress</div>
+    <div class="bg-danger col-sm-6 col-md-6">Digital Marketing</div>
+</div>
+
+<div class="row mb-2">
+    <div class="bg-success col-sm-6 col-md-6">HTML</div>
+    <div class="bg-warning col-sm-6 col-md-6">Bootstrap</div>
+    <div class="bg-success col-sm-6 col-md-6">Javascript</div>
+    <div class="bg-danger col-sm-6 col-md-6">Digital Marketing</div>
+</div>
+
+<div class="row mb-2">
+    <div class="bg-success col-sm-6 col-md-6">HTML</div>
+    <div class="bg-warning col-sm-6 col-md-6">Bootstrap</div>
+    <div class="bg-success col-sm-6 col-md-6">Javascript</div>
+    <div class="bg-danger col-sm-6 col-md-6">Digital Marketing</div>
+</div>
+
+<div class="row mb-2">
+    <div class="bg-success col-sm-6 col-md-6">HTML</div>
+    <div class="bg-warning col-sm-6 col-md-6">Bootstrap</div>
+    <div class="bg-danger col-sm-6 col-md-6">Digital Marketing</div>
+</div>
+
+<div class="row mb-2">
+    <div class="bg-success col-6">HTML</div>
+    <div class="bg-warning col-6">Bootstrap</div>
+</div>
+
+<div class="row mb-2">
+    <div class="bg-success col-12">Bootstrap</div>
+</div>
+
+</div>
+
+====================================================================
+====================================================================
+
     
